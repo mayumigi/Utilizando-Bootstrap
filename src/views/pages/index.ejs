@@ -32,27 +32,8 @@
   </div>
 </nav>
 
-<div class="card mb-3 border-0 shadow-sm" style="max-width: 800px;">
-  <div class="card-body d-flex p-3">
-    <img 
-      src="images/roblox.jpg" 
-      alt="avatar" 
-      class="rounded-circle me-3" 
-      style="width: 50px; height: 50px; object-fit: cover; max-width: 60px; max-height: 60px;"
-    >
-    <div>
-      <h6 class="mb-0">
-        Giovanna Saito <span class="text-muted">@giovannasaito</span>
-      </h6>
-      <p class="mb-2">Gente roubaram meus pets fr no roblox alguem me ajudaaaaaa #vidadificil</p>
-      <div class="d-flex justify-content-between text-muted" style="max-width: 250px;">
-        <small><i class="💬"></i> 💬12</small>
-        <small><i class="🔁"></i> 🔁8</small>
-        <small><i class="❤️"></i> ❤️34</small>
-      </div>
-    </div>
-  </div>
-</div>
+<% for
+<%- include('../partials/post.ejs', {post:{descricao: "acordei agora", dono: "Giovanna Saito"}}) %>
 
 </body>
 </html>
